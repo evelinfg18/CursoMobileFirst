@@ -1,0 +1,79 @@
+/*
+1. Posicionamiento
+2. Modelo de Caja (Box model)
+3. Tipografía
+4. Visaules
+5. Otros
+*/
+
+:root{
+    /*Colores*/
+--brown:#9E6F21;
+ --bitcoin-orange: #f7931a;
+ --soft-orange:#ffe9d5;
+ --secondary-blue: #1a9af7;
+ --soft-blue: #e7f5ff;
+ --warm-black:#201e1c;
+ --black:#282623;
+ --grey:#bababa;
+ --oof-white:#faf8f7;
+ --just-white:#ff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
+
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 334px;
+    text-align: center;
+    background: linear-gradient(207.8deg, #ede9fe 16.69%, #fbbf24 100%);;
+}
+
+header img{
+    width: 300px;
+    height: 300px;
+    margin-top:40px;
+    align-self: center;
+
+    
+}
+
+.header--title--container {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: 900px;
+    margin-top: 10px;
+    text-align: center;
+    align-self: center;
+}
+
+.header--title--container h1{
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--brown) ;
+    
+}
+
+.header--title--container p{
+    margin-top: 25px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--black);
+}
