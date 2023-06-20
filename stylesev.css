@@ -48,6 +48,7 @@ header img{
     height: 300px;
     margin-top:40px;
     align-self: center;
+    border-radius: 10px;
 
     
 }
@@ -345,7 +346,7 @@ main{
     width: 100%;
     min-width: 320px;
     height: 50vh;
-    background-image: url('./assets/imgs/bitcoinbaby2x.jpg');
+    background-image: url('./assetsev/imgs/dp_responsive_banner2.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -353,7 +354,7 @@ main{
 }
 
 .img-container h2{
-    padding-top: 60px;
+    padding-top: 30px;
     font-size: 2.4rem;
     font-weight: bold;
     line-height: 2.6rem;
@@ -424,7 +425,7 @@ main{
     left: calc(50% - 60px);
     font-size: 1.2rem;
     padding: 6px;
-    background-color: var(--bitcoin-orange);
+    background-color: #A2CDB0;
     border-radius: 8px;
     color: var(--just-white);
 }
@@ -482,7 +483,7 @@ footer{
     display: flex;
     width: 100%;
     height: 150px;
-    background-color: var(--bitcoin-orange);
+    background-color: #606C5D;
 }
 
 footer section{
@@ -504,5 +505,9 @@ footer .left ul {
 }
 .left a{
     text-decoration: none;
+    color: var(--just-white);
+}
+
+.rigth p{
     color: var(--just-white);
 }
